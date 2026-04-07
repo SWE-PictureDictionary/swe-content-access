@@ -4,8 +4,3 @@ server:
 spring:
   application:
     name: content-access
-
-logging:
-  level:
-    org.springframework.web: DEBUG
-    org.springframework: DEBUG

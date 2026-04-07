@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/topics")
-@CrossOrigin(origins = "*")
 public class TopicController {
 
     private final TopicService topicService;
