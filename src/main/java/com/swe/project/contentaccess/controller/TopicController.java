@@ -1,5 +1,6 @@
 package com.swe.project.contentaccess.controller;
 
+import com.swe.project.contentaccess.dto.CreateTopicRequest;
 import com.swe.project.contentaccess.model.Topic;
 import com.swe.project.contentaccess.service.TopicService;
 import org.springframework.web.bind.annotation.*;
@@ -26,10 +27,8 @@ public class TopicController {
         return topicService.getTopicById(id);
     }
 
-    /*
-    CRUD on topic and hotspot documents in MongoDB. Business verbs:
-    POST /topics, GET /topics (table of contents), GET /topics/{id} (with embedded
-    hotspots), POST /topics/{id}/hotspots, PUT /topics/{id}/hotspots/{label}, DELETE
-    /topics/{id}
-    */
+    @PostMapping
+    public Topic createTopic(@RequestBody CreateTopicRequest request) {
+        return topicService.createTopic(request);
+    }
 }
