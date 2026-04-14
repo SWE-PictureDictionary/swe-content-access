@@ -1,5 +1,3 @@
 spring:
   application:
     name: content-access
-  config:
-    import: optional:configserver:http://config-service:8888
