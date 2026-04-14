@@ -74,7 +74,7 @@ public class TopicService {
                                         52.0,
                                         37.0,
                                         Map.of("Spanish", "Zanahoria"),
-                                        Map.of()
+                                        Map.of("Spanish", "/audio/spanish_carrot.mp3")
                                 ),
                                 new Hotspot(
                                         "Garlic",
@@ -82,7 +82,7 @@ public class TopicService {
                                         14.0,
                                         75.0,
                                         Map.of("Spanish", "Ajo"),
-                                        Map.of()
+                                        Map.of("Spanish", "/audio/spanish_garlic.mp3")
                                 ),
                                 new Hotspot(
                                         "Potato",
@@ -90,7 +90,7 @@ public class TopicService {
                                         82.0,
                                         52.0,
                                         Map.of("Spanish", "Papa"),
-                                        Map.of()
+                                        Map.of("Spanish", "/audio/spanish_potato.mp3")
                                 )
                         )
                 )
